@@ -1,0 +1,125 @@
+:root{
+    --fondo:#1A1A1A; 
+    --text:white;
+}   
+
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+}
+
+
+header {
+    background-color: var(--fondo);
+    display: flex;
+    justify-content: space-around;
+}
+
+    .titulo{
+        color: var(--text);
+        text-transform: uppercase;
+        padding-top: 10px;
+        font-size: 5rem;
+    }
+
+    header img {
+        padding-top: 3rem;
+    }
+
+
+    .barra-navegacion{
+        display: flex;
+        justify-content: space-evenly;
+        height: 9rem;
+        width: 60rem;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1.2rem;
+        background-color: var(--fondo);
+        margin-top: 1.2rem;
+    }
+        li{
+            list-style: none;
+            display: flex;
+            
+        }
+            li a{
+                text-decoration: none;
+                font-size: 2.6rem;
+                color: var(--text);
+            }
+
+main{
+    display: flex;
+}
+    .modelo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .caja-modelo{
+        margin: 1rem;
+        border: 2px solid var(--fondo);
+        border-radius: 2px;
+    }
+
+    .imagen-modelo  {
+        width:48rem;
+        height: 48rem;
+    }
+
+    .titulo-modelo{
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .caja-botones{
+        margin: 1rem;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+
+    footer{
+        background-color: var(--fondo);
+        display: flex;
+        justify-content: center;
+    }
+
+        .about{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color:var(--text);
+        }
+            .about p{
+                text-align: center;
+                color:var(--text);
+                font-size: 2.3rem;
+            }
+
+        .footer-logo{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .titulo-follow{
+            text-align: center;
+            color:var(--text);
+        }
+
+        .titulo-logo{
+            color: var(--text); 
+            font-size: 2.6rem;
+        }
+
+        .social{
+            margin-top: 2.3rem;
+        }
